@@ -5,4 +5,7 @@ Simple "OS" game.
 ## Installation
 Simply download as "zip"
 
-### Test
+### Terms
+EB --> "Early Build"
+rel. --> release date for a new update ≠ new version
+next --> date of next version
