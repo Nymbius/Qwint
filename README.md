@@ -6,6 +6,6 @@ Simple "OS" game.
 Simply download as "zip"
 
 ### Terms
-EB --> "Early Build"|
-rel. --> release date for a new update ≠ new version|
+EB --> "Early Build" |
+rel. --> release date for a new update ≠ new version |
 next --> date of next version
