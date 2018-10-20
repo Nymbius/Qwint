@@ -65,10 +65,10 @@ echo # Commands :                                                               
 echo # + "folder" - Will open a folder with that name.                              #
 echo # "-" - Will exit current folder. Typing -- will exit to main screen.          #
 echo # run "program" - Will run a .qcp file in another window called "runprog".     #
-echo #                                                                              #
-echo #                                                                              #
-echo #                                                                              #
-echo #                                                                              #
+echo # stop - Stops a specified command. Use "stop > "name"" to stop specified      #
+echo # file. Use "stop < "name"" to stop specified command.                         #
+echo # %"command name" - Runs a specified command. To see the basic commands type : #
+echo # "help command". Remember that this will display only the basic commands.     #
 echo #                                                                              #
 echo #                                                                              #
 echo #                                                                              #
