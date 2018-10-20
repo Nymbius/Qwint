@@ -53,6 +53,8 @@ set /p cmd=""
 
 if %cmd%==help goto helpscr
 
+if %cmd%==stop < exit
+
 :helpscr
 
 title Help
