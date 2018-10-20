@@ -24,7 +24,7 @@ mode con: cols=80 lines=28
 echo ################################################################################
 echo # Type "help" to get a list of the basic commands.                             #
 echo #                                                                              #
-echo #                                                                              #
+echo # Package "My Folders                                                          #
 echo #                                                                              #
 echo #                                                                              #
 echo #                                                                              #
