@@ -18,10 +18,11 @@ goto Main Screen
 ::    5 = Purple      D = Light Purple
 ::    6 = Yellow      E = Light Yellow
 ::    7 = White       F = Bright White
+title Main Screen
 color 01
 mode con: cols=80 lines=28
 echo ################################################################################
-echo #                                                                              #
+echo # Type "help" to get a list of the basic commands.                             #
 echo #                                                                              #
 echo #                                                                              #
 echo #                                                                              #
@@ -48,5 +49,41 @@ echo #                                                                          
 echo #                                                                              #
 echo ################################################################################
 
+set /p cmd=""
+
+if %cmd%==help goto helpscr
+
+:helpscr
+
+title Help
+color 09
+mode con: cols=80 lines=28
+echo ################################################################################
+echo # Commands :                                                                   #
+echo # + "folder" - Will open a folder with that name.                              #
+echo # "-" - Will exit current folder. Typing -- will exit to main screen.          #
+echo # run "program" - Will run a .qcp file in another window called "runprog".     #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo #                                                                              #
+echo ################################################################################
 pause
-##########################################
+goto :Main Screen
