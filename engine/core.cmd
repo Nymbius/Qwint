@@ -1,5 +1,5 @@
 @echo off
 echo test
-start /min %~dp0tracker.cmd
+start /min %~dp0screener.cmd
 pause
 start tracker.cmd
