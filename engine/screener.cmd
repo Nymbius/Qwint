@@ -23,7 +23,11 @@ color 01
 mode con: cols=80 lines=28
 echo ################################################################################
 echo # Type "help" to get a list of the basic commands.                             #
+<<<<<<< HEAD
+echo # Type "info" to get information abount the basics                             #
+=======
 echo #                                                                              #
+>>>>>>> 5b9b8c90684e67ac7823b7c9396de9a6c473ad4f
 echo # Package "My Folders                                                          #
 echo #                                                                              #
 echo #                                                                              #
@@ -53,6 +57,11 @@ set /p cmd=""
 
 if %cmd%==help goto helpscr
 
+<<<<<<< HEAD
+if %cmd%==info goto info
+
+=======
+>>>>>>> 5b9b8c90684e67ac7823b7c9396de9a6c473ad4f
 if %cmd%==stop < exit
 
 :helpscr
@@ -89,3 +98,12 @@ echo #                                                                          
 echo ################################################################################
 pause
 goto :Main Screen
+<<<<<<< HEAD
+
+:info
+cd
+start info.cmd
+CLS
+goto Main Screen
+=======
+>>>>>>> 5b9b8c90684e67ac7823b7c9396de9a6c473ad4f
